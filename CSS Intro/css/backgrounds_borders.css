@@ -1,0 +1,24 @@
+#box-1 {
+  background-color: aqua;
+  /*border-width: 3px;
+  border-color: red;
+  border-style: solid;*/
+  border: 3px solid red;
+  border-radius: 10px;
+}
+#box-2 {
+  background: orange;
+  color:#fff;
+  border-top: blue solid 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#box-3 {
+  background-image: url(/htmlsandbox/images/space.jpeg);
+  color:#fff;
+  /*height: 300px;
+  width: 600px;*/
+}
+#box-4 {
+  background-image: url(/htmlsandbox/images/leaf.png);
+}
