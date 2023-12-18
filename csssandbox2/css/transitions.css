@@ -1,0 +1,18 @@
+body {
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.box {
+  background: white;
+  width: 100px;
+  height: 100px;
+  transition-property: background;
+  transition-duration: 2s;
+}
+.box:hover {
+  background: red;
+  border-radius: 50%;
+}
