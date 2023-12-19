@@ -57,13 +57,13 @@ h1 {
 }
 /* Right Side */
 #timeline ul li:nth-child(odd) div {
-  left: 40px;
+  left: -152px;
   transform: translate(200px, 0);
 }
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
-  left: -434px;
+  left: -244px;
   transform: translate(-200px, 0);
 }
 
@@ -78,7 +78,7 @@ h1 {
   background: inherit;
   transform: translateX(-50%);
   border-radius: 50%;
-  transition: background 0.5s ease-in-out;
+  transition: left 0.5s ease-in-out;
 }
 
 /* Arrows Base */
@@ -104,3 +104,34 @@ h1 {
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--secondary-color);
 }
+@media(max-width: 900px) {
+  #timeline ul li div {
+    width: 250px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media(max-width: 600px) {
+  #timeline ul li {
+    margin-left: 20px;
+  }
+
+  #timeline ul li div {
+    width: calc(100vw - 90px);
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: 244px;
+  }
+
+  #timeline ul li:nth-child(even) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--secondary-color) transparent transparent;
+  }
+}
+
+
