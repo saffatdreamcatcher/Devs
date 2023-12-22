@@ -37,4 +37,18 @@
   grid-row: 2/-1;
   grid-column: 3/-1;
 }
-
+.pic1 h1 {
+  transform: translateY(-30rem);
+  text-align: center;
+  color: White; 
+}
+.pic2 h2 {
+transform: translateY(-15rem);
+ text-align: center;
+ color: #fff; 
+}
+.pic3 h3 {
+  transform: translateY(15rem);
+   text-align: center;
+   color: #fff; 
+  }
