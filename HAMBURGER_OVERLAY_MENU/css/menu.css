@@ -78,6 +78,7 @@ visibility: visible;
   transition-duration: var(--menu-speed);
 }
 .menu-wrap .toggler:checked ~ .menu > div  > div {
+  /* border: 2px solid red; */
   opacity: 1;
   transition: opacity 0.4s ease 0.4s ease;
 }
