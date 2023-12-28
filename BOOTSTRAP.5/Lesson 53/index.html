@@ -12,7 +12,18 @@
   <div class="container mt-3">
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <div id="slide-with-controls" class="carousel slide" data-bs-ride="carousel">
+        <div id="slide-with-indicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#slide-with-indicators"
+            data-bs-slide-to="0" aria-current="true" aria-label="slide 1">
+            </button>
+            <button class="active" type="button" data-bs-target="#slide-with-indicators"
+            data-bs-slide-to="1" aria-current="true" aria-label="slide 2">
+            </button>
+            <button class="active" type="button" data-bs-target="#slide-with-indicators"
+            data-bs-slide-to="2" aria-current="true" aria-label="slide 3">
+            </button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/12/09/15/01/hd-wallpapers-8439523_1280.jpg" alt="">
@@ -24,12 +35,12 @@
               <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/12/04/21/25/antic-8430398_1280.jpg" alt="">
             </div>
           </div>
-          <button class= "carousel-control-prev" type="button" data-bs-target="#slide-with-controls"
+          <button class= "carousel-control-prev" type="button" data-bs-target="#slide-with-indicators"
           data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class= "carousel-control-next" type="button" data-bs-target="#slide-with-controls"
+          <button class= "carousel-control-next" type="button" data-bs-target="#slide-with-indicators"
           data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
