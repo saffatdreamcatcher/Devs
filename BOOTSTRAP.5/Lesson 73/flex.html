@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    .custom-height{
+      height: 100px;
+    }
+  </style>
+  <title>Flex</title>
+</head>
+
+<body>
+
+  <div class="container mt-3">
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-8">
+            <div class="d-inline-flex p-2">Flexbox Container</div>
+            <div class="d-inline-flex p-2"> Inline Flexbox Container</div>
+      </div>
+    </div>
+    <!--Flex Direction-->
+    <div class="container mt-3">
+      <div class="row justify-content-center mb-3 mt-5">
+        <div class="col-md-8">
+          <div class="d-flex flex-row mb-3 bg-info">
+            <div class="p-2 m-1">Flex item 1</div>
+              <div class="p-2 m-1">Flex item 2</div>
+              <div class="p-2 m-1">Flex item 3</div>
+          </div>
+          <div class="d-flex flex-row-reverse bg-danger">
+            <div class="p-2 m-1">Flex item 1</div>
+            <div class="p-2 m-1">Flex item 2</div>
+            <div class="p-2 m-1">Flex item 3</div>
+          </div>
+        <!--Flex Justify Content-->
+            <div class="d-flex flex-row mb-3 bg-info justify-content-center mt-4">
+              <div class="p-2 m-1">Flex item 1</div>
+                <div class="p-2 m-1">Flex item 2</div>
+                <div class="p-2 m-1">Flex item 3</div>
+            </div>
+
+            <div class="d-flex flex-row mb-3 bg-warning justify-content-between mt-4">
+              <div class="p-2 m-1">Flex item 1</div>
+                <div class="p-2 m-1">Flex item 2</div>
+                <div class="p-2 m-1">Flex item 3</div>
+            </div>
+
+            <!--Flex Align Items-->
+            <div class="d-flex align-items-start flex-row mb-3 bg-info">
+              <div class="p-2 m-1">Flex item 1</div>
+                <div class="p-2 m-1">Flex item 2</div>
+                <div class="p-2 m-1">Flex item 3</div>
+            </div>
+
+            <div class="d-flex align-items-stretch flex-row bg-success">
+              <div class="p-2 m-1">Flex item 1</div>
+                <div class="p-2 m-1">Flex item 2</div>
+                <div class="p-2 m-1">Flex item 3</div>
+            </div>
+
+            <!--Flex Align Self-->
+                  <div class="d-flex mb-3 bg-info custom-height align-items-stretch mt-3">
+                    <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                    <div class="p-2 text-bg-secondary m-1 align-self-end">Flex item 2</div>
+                    <div class="p-2 text-bg-warning m-1 align-self-baseline">Flex item 3</div>
+                  </div>
+
+                   <!--Flex fill-->
+                   <div class="d-flex mb-3 bg-info mt-3">
+                    <div class="p-2 text-bg-primary m-1 flex-fill">Flex with a lot of item </div>
+                    <div class="p-2 text-bg-secondary m-1 flex-sm-fill">Flex item 2</div>
+                    <div class="p-2 text-bg-warning m-1">Flex item 3</div>
+                  </div>
+                  
+            <!--Flex Align Self-->
+            <div class="d-flex mb-3 bg-info mt-3">
+              <div class="p-2 text-bg-primary m-1 flex-grow-1">Flex with a lot of item </div>
+              <div class="p-2 text-bg-secondary m-1 flex-shrink-3">Flex item 2</div>
+              <div class="p-2 text-bg-warning m-1">Flex item 3</div>
+            </div>
+
+            <div class="d-flex mb-3 bg-info mt-3">
+              <div class="p-2 text-bg-primary m-1 flex-grow-3">Flex with a lot of item </div>
+              <div class="p-2 text-bg-secondary m-1 flex-grow-2">Flex item 2</div>
+              <div class="p-2 text-bg-warning m-1 flex-grow-1">Flex item 3</div>
+            </div>
+            <div class="d-flex mb-3 bg-info mt-3">
+              <div class="p-2 text-bg-primary m-1 flex-shrink-3">Flex with a lot of item </div>
+              <div class="p-2 text-bg-secondary m-1 flex-shrink-2">Flex item 2</div>
+              <div class="p-2 text-bg-warning m-1 flex-shrink-1">Flex item 3</div>
+
+              <!--Flex with Align Items-->
+              <div class="d-flex mb-3 bg-success align-items-start mt-3" style="height: 200px;">
+                <div class="p-2 text-bg-primary m-1">Flex item 1</div>
+                <div class="p-2 text-bg-secondary m-1 align-self-end">Flex item 2</div>
+                <div class="p-2 text-bg-warning m-1 align-self-baseline">Flex item 3</div>
+              </div>
+             
+              <!--Flex Wrap-->
+              <div class="container mt-3">
+                <div class="row justify-content-center mb-3 mt-5">
+                  <div class="col-md-8">
+              <div class="d-flex flex-nowrap mb-3 bg-success align-items-start mt-3" style="height: 500px;">
+                <div class="p-2 text-bg-primary m-1">Flex item 4</div>
+                <div class="p-2 text-bg-secondary m-1 ">Flex item 5</div>
+                <div class="p-2 text-bg-warning m-1">Flex item 6</div>
+                <div class="p-2 text-bg-primary m-1">Flex item 7</div>
+                <div class="p-2 text-bg-secondary m-1">Flex item 8</div>
+                <div class="p-2 text-bg-warning m-1">Flex item 9</div>
+              </div>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
