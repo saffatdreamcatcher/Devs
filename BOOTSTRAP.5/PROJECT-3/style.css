@@ -18,3 +18,7 @@
   width: 150px;
   height: auto;
 }
+.blur-filter{
+  backdrop-filter: blur(8px);
+  background-color: rgb(255, 255, blue);
+}
