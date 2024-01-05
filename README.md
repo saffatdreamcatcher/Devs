@@ -13,5 +13,5 @@
 - Bootstrap:
 
 - Project 1: EMS Web -> https://65952729847a617bdefa152f--rainbow-cat-73c2b4.netlify.app/
-- Project 2: Blog App -> https://659802987241e306a8626cf2--beautiful-dasik-5bb101.netlify.app/
+- Project 2: Blog App -> https://65980a05a11f670977294513--celadon-sunflower-98ad0a.netlify.app/
 - Project 3: Education Project -> https://6597a52b0537cf89c2e738b4--legendary-starburst-9469b1.netlify.app/
