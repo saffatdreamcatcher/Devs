@@ -14,3 +14,4 @@
 
 - Project 1: EMS Web -> https://65952729847a617bdefa152f--rainbow-cat-73c2b4.netlify.app/
 - Project 2: Blog App -> https://65956db52c55950086c7128f--cute-muffin-2c484e.netlify.app/
+- Project 3: Education Project -> https://6597a52b0537cf89c2e738b4--legendary-starburst-9469b1.netlify.app/
