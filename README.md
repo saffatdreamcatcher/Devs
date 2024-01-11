@@ -9,6 +9,7 @@
 - NewsGreed Website -> https://moonlit-druid-3e6341.netlify.app/
 - Gallery (using Grid) -> https://superlative-gecko-9eb10d.netlify.app/
 - Portfolio Website -> https://deft-lebkuchen-8e5f5e.netlify.app/dist/
+- Analog Clock -> https://joyful-brigadeiros-dc2dde.netlify.app/
 
 - Bootstrap:
 
