@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.cir {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.hand1 {
+  width: 1.8px;
+  height: 180px;
+  background: red;
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(0deg);
+  animation-name: second;
+  animation-duration: 15s;
+  transform-origin: top center;
+}
+
+.hand2 {
+  width: 1.8px;
+  height: 150px;
+  background: blue;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(30deg);
+  animation-name: minute;
+  animation-duration: 15s;
+  transform-origin: top center;
+}
+
+@keyframes second {
+  from {
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -100%) rotate(1080deg);
+  }
+}
+
+@keyframes minute {
+    from {
+      transform: translate(-50%, -100%) rotate(30deg);
+    }
+    to {
+      transform: translate(-50%, -100%) rotate(110deg);
+    }
+  }
+
+
+ .wrapper{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: lightblue;
+ min-height: 100vh;
+} 
+  </style>
+  <title>Analog Clock of two hands</title>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="cir">
+        <div class="hand1"></div>
+        <div class="hand2"></div>
+      </div>
+  </div>
+</body>
+</html>
